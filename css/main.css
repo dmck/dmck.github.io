@@ -1,0 +1,106 @@
+/* line 7, ../_sass/_meyer-reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../_sass/_meyer-reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 20, ../_sass/_meyer-reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 23, ../_sass/_meyer-reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../_sass/_meyer-reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../_sass/_meyer-reset.scss */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 36, ../_sass/_meyer-reset.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 41, ../_sass/_meyer-reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../_sass/main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  margin-left: 1rem;
+  color: #444;
+}
+
+/* line 10, ../_sass/main.scss */
+h1 {
+  font-size: 3rem;
+}
+
+/* line 13, ../_sass/main.scss */
+h2 {
+  font-size: 2rem;
+}
+
+/* line 16, ../_sass/main.scss */
+h3 {
+  font-size: 1.5rem;
+}
+
+/* line 19, ../_sass/main.scss */
+p {
+  max-width: 50rem;
+  padding: .5rem;
+}
+
+/* line 23, ../_sass/main.scss */
+small {
+  font-size: 66%;
+}
+
+/* line 26, ../_sass/main.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 29, ../_sass/main.scss */
+article {
+  width: 100%;
+}
+
+/* line 32, ../_sass/main.scss */
+picture, img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5rem;
+}
+
+/* line 37, ../_sass/main.scss */
+.lead {
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  padding-left: 1rem;
+}

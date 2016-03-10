@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Projects</h1>
+
+{% for cat in site.category-list %}
+<ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+          {% if pc == "projects" %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}   <!-- cat-projects -->
+        {% endif %}   <!-- cat-match-p -->
+      {% endfor %}  <!-- page-category -->
+    {% endif %}   <!-- resource-p -->
+  {% endfor %}  <!-- page -->
+</ul>
+{% endfor %}  <!-- cat -->
+
+</div>

@@ -1,0 +1,41 @@
+@import "meyer-reset";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  margin-left: 1rem;
+  color: #444;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  max-width: 50rem;
+  padding: .5rem;
+}
+small {
+  font-size: 66%;
+}
+img {
+  max-width: 100%;
+}
+article {
+  width: 100%;
+}
+picture, img {
+  display:flex;
+  flex-wrap:wrap;
+  padding: .5rem;
+}
+.lead {
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  padding-left: 1rem;
+}
