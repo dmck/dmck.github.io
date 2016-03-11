@@ -1,0 +1,16 @@
+    <h3><span class="underlined">{{page.title}}</span><a href=""></a>
+    {% if page.tryHere %}
+      <small>( <a href="{{page.tryHere}}">Try it</a> )</small>
+    {% endif %}
+    {% if page.viewSource %}
+      <small>( <a href="{{page.viewSource}}">View source</a> )</small>
+    {% endif %}
+    </h3>
+    {% if page.lead %}<span class="lead">{{ page.lead }}</span>{% endif %}
+    {% if page.mainImage %}
+    <picture>
+      <source media="(min-width: 640px)" srcset="{{page.mainImage}}-medium_1x.jpg 1x, {{page.mainImage}}-medium_2x.jpg 2x">
+      <source media="(min-width: 320px)" srcset="{{page.mainImage}}-small_1x.jpg 1x, {{page.mainImage}}-small_2x.jpg 2x">
+      <img src="{{page.mainImage}}-small_1x.jpg" alt="{{page.altText}}">
+    </picture>
+    {% endif %}

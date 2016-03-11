@@ -4,20 +4,26 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  	<h2 class="page-heading">Projects</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	{% for cat in site.category-list %}
+	<ul class="project-list">
+	  {% for page in site.pages %}
+	    {% if page.resource == true %}
+	      {% for pc in page.categories %}
+	        {% if pc == cat %}
+	          {% if pc == "projects" %}
+	          <a href="{{ page.url }}">
+	          	<li>
+	          	{% include project-lead.html%}
+	          	</li>
+	          </a>
+	          {% endif %}   <!-- cat-projects -->
+	        {% endif %}   <!-- cat-match-p -->
+	      {% endfor %}  <!-- page-category -->
+	    {% endif %}   <!-- resource-p -->
+	  {% endfor %}  <!-- page -->
+	</ul>
+	{% endfor %}  <!-- cat -->
 
 </div>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 7, ../_sass/_meyer-reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -56,51 +57,94 @@ body {
 }
 
 /* line 10, ../_sass/main.scss */
-h1 {
-  font-size: 3rem;
+h1, h2, h3 {
+  line-height: 1;
+  margin-bottom: .5rem;
+}
+/* line 13, ../_sass/main.scss */
+h1 a, h2 a, h3 a {
+  color: #444;
+  text-decoration: none;
+}
+/* line 17, ../_sass/main.scss */
+h1 a:hover, h2 a:hover, h3 a:hover {
+  color: #777;
+  font-style: italics;
 }
 
-/* line 13, ../_sass/main.scss */
+/* line 22, ../_sass/main.scss */
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0 1.2rem;
+}
+
+/* line 26, ../_sass/main.scss */
 h2 {
   font-size: 2rem;
 }
 
-/* line 16, ../_sass/main.scss */
+/* line 29, ../_sass/main.scss */
 h3 {
   font-size: 1.5rem;
 }
 
-/* line 19, ../_sass/main.scss */
+/* line 32, ../_sass/main.scss */
 p {
   max-width: 50rem;
   padding: .5rem;
 }
 
-/* line 23, ../_sass/main.scss */
+/* line 36, ../_sass/main.scss */
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* line 40, ../_sass/main.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 43, ../_sass/main.scss */
 small {
   font-size: 66%;
 }
 
-/* line 26, ../_sass/main.scss */
-img {
-  max-width: 100%;
+/* line 46, ../_sass/main.scss */
+.underlined {
+  text-decoration: underline;
 }
 
-/* line 29, ../_sass/main.scss */
-article {
-  width: 100%;
-}
-
-/* line 32, ../_sass/main.scss */
+/* line 49, ../_sass/main.scss */
 picture, img {
-  display: flex;
-  flex-wrap: wrap;
-  padding: .5rem;
+  max-width: 100%;
+  display: block;
+  padding: .5rem 1rem .5rem 0;
 }
 
-/* line 37, ../_sass/main.scss */
+/* line 54, ../_sass/main.scss */
 .lead {
   font-size: 1.5rem;
   font-variant: small-caps;
   padding-left: 1rem;
+  display: block;
+  line-height: .9;
+}
+
+/* line 61, ../_sass/main.scss */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 64, ../_sass/main.scss */
+.project-list li {
+  border: .5rem solid;
+  max-width: 40rem;
+  padding: 1rem;
+  margin: 0 1rem 1rem 0;
+}
+/* line 69, ../_sass/main.scss */
+.project-list li h3:before {
+  content: "»";
+  margin-right: 6px;
 }

@@ -22,7 +22,7 @@ module.exports = function(grunt) {
             name: "medium",
             width: 1280,
             suffix: "_2x",
-            quality: 80
+            quality: 50
           },{
             name: "small",
             width: 320,
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             name: "small",
             width: 640,
             suffix: "_2x",
-            quality: 80
+            quality: 50
           }]
         },
 

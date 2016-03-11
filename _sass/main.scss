@@ -7,8 +7,21 @@ body {
   margin-left: 1rem;
   color: #444;
 }
+h1, h2, h3 {
+  line-height: 1;
+  margin-bottom: .5rem;
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #777;
+    font-style: italics;
+  }
+}
 h1 {
   font-size: 3rem;
+  margin: 1rem 0 1.2rem;
 }
 h2 {
   font-size: 2rem;
@@ -20,22 +33,42 @@ p {
   max-width: 50rem;
   padding: .5rem;
 }
+a {
+  color: #777;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 small {
   font-size: 66%;
 }
-img {
-  max-width: 100%;
-}
-article {
-  width: 100%;
+.underlined {
+  text-decoration: underline;
 }
 picture, img {
-  display:flex;
-  flex-wrap:wrap;
-  padding: .5rem;
+  max-width: 100%;
+  display: block;
+  padding: .5rem 1rem .5rem 0;
 }
 .lead {
   font-size: 1.5rem;
   font-variant: small-caps;
   padding-left: 1rem;
+  display: block;
+  line-height: .9;
+}
+.project-list {
+  display:flex;
+  flex-wrap:wrap;
+  li {
+    border: .5rem solid;
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0 1rem 1rem 0;
+    h3:before {
+      content: "»";
+      margin-right: 6px;
+    }
+  }
 }
