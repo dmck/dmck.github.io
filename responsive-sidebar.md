@@ -1,5 +1,6 @@
 ---
 layout: project
+siteTitle: This project is an extension...
 title: Responsive Sidebar for Reddit
 tryHere: https://chrome.google.com/webstore/detail/responsive-sidebar-for-re/cndgjpnecphpmehnehcgommajdhajabc
 viewSource: https://github.com/dmck/responsive_reddit_sidebar

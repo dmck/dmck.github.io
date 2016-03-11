@@ -1,4 +1,16 @@
 			<header class="title">
-				<h1><a href="{{base}}/">Title</a></h1>
+				<h1>
+				{% if page.url != "/"%}
+					<a href="{{base}}/">
+				{% endif %}
+				Hello,<br>
+				{% if page.siteTitle %}
+					{{page.siteTitle}} 
+				{% else %}
+					I'm Daniel McKnight.
+				{% endif %}
+				{% if page.url != "/"%}
+					</a>
+				{% endif %}
+				</h1>
 			</header>
-			

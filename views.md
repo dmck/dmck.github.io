@@ -1,5 +1,6 @@
 ---
 layout: project
+siteTitle: This project uses Java...
 title: VIEW§
 lead: An improved user interface for Fla. Stat. § 440
 tryHere: https://dmck.github.io/views/
