@@ -1,11 +1,15 @@
 @import "meyer-reset";
 
 body {
+  background: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
   line-height: 1.5;
-  margin-left: 1rem;
+  padding-left: 1rem;
   color: #444;
+}
+.project-page {
+  border: .5rem solid #444;
 }
 h1, h2, h3 {
   line-height: 1;
