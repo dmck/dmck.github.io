@@ -60,75 +60,77 @@ body {
 /* line 11, ../_sass/main.scss */
 .project-page {
   border: .5rem solid #444;
+  max-width: 51rem;
+  margin: 1rem;
 }
 
-/* line 14, ../_sass/main.scss */
+/* line 16, ../_sass/main.scss */
 h1, h2, h3 {
   line-height: 1;
   margin-bottom: .5rem;
 }
-/* line 17, ../_sass/main.scss */
+/* line 19, ../_sass/main.scss */
 h1 a, h2 a, h3 a {
   color: #444;
   text-decoration: none;
 }
-/* line 21, ../_sass/main.scss */
+/* line 23, ../_sass/main.scss */
 h1 a:hover, h2 a:hover, h3 a:hover {
   color: #777;
   font-style: italics;
 }
 
-/* line 26, ../_sass/main.scss */
+/* line 28, ../_sass/main.scss */
 h1 {
   font-size: 3rem;
   margin: 1rem 0 1.2rem;
 }
 
-/* line 30, ../_sass/main.scss */
+/* line 32, ../_sass/main.scss */
 h2 {
   font-size: 2rem;
 }
 
-/* line 33, ../_sass/main.scss */
+/* line 35, ../_sass/main.scss */
 h3 {
   font-size: 1.5rem;
 }
 
-/* line 36, ../_sass/main.scss */
+/* line 38, ../_sass/main.scss */
 p {
   max-width: 50rem;
   padding: .5rem;
 }
 
-/* line 40, ../_sass/main.scss */
+/* line 42, ../_sass/main.scss */
 a {
   color: #777;
   text-decoration: none;
 }
 
-/* line 44, ../_sass/main.scss */
+/* line 46, ../_sass/main.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 47, ../_sass/main.scss */
+/* line 49, ../_sass/main.scss */
 small {
   font-size: 66%;
 }
 
-/* line 50, ../_sass/main.scss */
+/* line 52, ../_sass/main.scss */
 .underlined {
   text-decoration: underline;
 }
 
-/* line 53, ../_sass/main.scss */
+/* line 55, ../_sass/main.scss */
 picture, img {
   max-width: 100%;
   display: block;
   padding: .5rem 1rem .5rem 0;
 }
 
-/* line 58, ../_sass/main.scss */
+/* line 60, ../_sass/main.scss */
 .lead {
   font-size: 1.5rem;
   font-variant: small-caps;
@@ -137,19 +139,19 @@ picture, img {
   line-height: .9;
 }
 
-/* line 65, ../_sass/main.scss */
+/* line 67, ../_sass/main.scss */
 .project-list {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 68, ../_sass/main.scss */
+/* line 70, ../_sass/main.scss */
 .project-list li {
   border: .5rem solid;
   max-width: 40rem;
   padding: 1rem;
   margin: 0 1rem 1rem 0;
 }
-/* line 73, ../_sass/main.scss */
+/* line 75, ../_sass/main.scss */
 .project-list li h3:before {
   content: "»";
   margin-right: 6px;
