@@ -38,6 +38,9 @@ h3 {
 p {
   max-width: 50rem;
   padding: .5rem;
+  a {
+    word-break: break-all;
+  }
 }
 a {
   color: #777;

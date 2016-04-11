@@ -101,36 +101,40 @@ p {
   max-width: 50rem;
   padding: .5rem;
 }
+/* line 41, ../_sass/main.scss */
+p a {
+  word-break: break-all;
+}
 
-/* line 42, ../_sass/main.scss */
+/* line 45, ../_sass/main.scss */
 a {
   color: #777;
   text-decoration: none;
 }
 
-/* line 46, ../_sass/main.scss */
+/* line 49, ../_sass/main.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 49, ../_sass/main.scss */
+/* line 52, ../_sass/main.scss */
 small {
   font-size: 66%;
 }
 
-/* line 52, ../_sass/main.scss */
+/* line 55, ../_sass/main.scss */
 .underlined {
   text-decoration: underline;
 }
 
-/* line 55, ../_sass/main.scss */
+/* line 58, ../_sass/main.scss */
 picture, img {
   max-width: 100%;
   display: block;
   padding: .5rem 1rem .5rem 0;
 }
 
-/* line 60, ../_sass/main.scss */
+/* line 63, ../_sass/main.scss */
 .lead {
   font-size: 1.5rem;
   font-variant: small-caps;
@@ -139,19 +143,19 @@ picture, img {
   line-height: .9;
 }
 
-/* line 67, ../_sass/main.scss */
+/* line 70, ../_sass/main.scss */
 .project-list {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 70, ../_sass/main.scss */
+/* line 73, ../_sass/main.scss */
 .project-list li {
   border: .5rem solid;
   max-width: 40rem;
   padding: 1rem;
   margin: 0 1rem 1rem 0;
 }
-/* line 75, ../_sass/main.scss */
+/* line 78, ../_sass/main.scss */
 .project-list li h3:before {
   content: "»";
   margin-right: 6px;
