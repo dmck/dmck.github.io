@@ -2,7 +2,7 @@
 layout: project
 siteTitle: This project is a Tumblr blog...
 title: Raw Tact
-tryHere: http://rawtact.com
+tryHere: http://rawtact.tumblr.com/
 mainImage: images/raw-tact-main
 altText: Screenshot of rawtact.com
 resource: true
