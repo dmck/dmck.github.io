@@ -2,7 +2,7 @@
 layout: project
 siteTitle: This project uses Middlemanapp...
 title: mck.legal
-tryHere: http://mcklegal.web.runbox.net/
+tryHere: http://mck.legal
 mainImage: images/mcklegal-main
 altText: Screenshot of website for mck.legal
 resource: true
